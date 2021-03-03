@@ -1,13 +1,9 @@
 import React from 'react';
 
-import { Title, Wrapper } from './styles';
+import { Wrapper } from './styles';
 
 function HomeScreen() {
-  return (
-    <Wrapper>
-      <Title>This is the expo-basic template by carlos3g</Title>
-    </Wrapper>
-  );
+  return <Wrapper></Wrapper>;
 }
 
 export default HomeScreen;

@@ -8,8 +8,3 @@ export const Wrapper = styled(SafeAreaView)`
   align-items: center;
   flex: 1;
 `;
-
-export const Title = styled.Text`
-  color: #f8f8f2;
-  font-size: 18px;
-`;
