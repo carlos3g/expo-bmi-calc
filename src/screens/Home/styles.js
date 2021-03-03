@@ -25,11 +25,13 @@ export const Section = styled.View`
 `;
 
 export const NarrowCard = styled.View`
+  align-items: center;
   background-color: #222747;
   width: 49%;
 `;
 
 export const LargeCard = styled.View`
+  align-items: center;
   background-color: #222747;
   width: 100%;
 
