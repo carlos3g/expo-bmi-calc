@@ -51,6 +51,13 @@ export const GenderFemaleIcon = styled(MaterialCommunityIcons).attrs({
   color: '#f8f8f2',
 })``;
 
+export const CardLabel = styled.Text`
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  color: #f8f8f2;
+`;
+
 export const CalculateButton = styled.TouchableOpacity`
   background-color: #e6005c;
   justify-content: center;
