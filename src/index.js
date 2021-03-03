@@ -9,7 +9,7 @@ import HomeScreen from '@screens/Home';
 function App() {
   return (
     <>
-      <StatusBar style="light" backgroundColor="#282a36" />
+      <StatusBar style="light" backgroundColor="#0A0F32" />
       <NavigationContainer>
         <HomeScreen />
       </NavigationContainer>
