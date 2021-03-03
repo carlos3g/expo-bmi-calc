@@ -4,18 +4,19 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 export const Wrapper = styled(SafeAreaView)`
   background-color: #0a0f32;
-  justify-content: center;
-  align-items: center;
   flex: 1;
+`;
+
+export const Container = styled.ScrollView`
+  flex: 1;
+  padding: 20px 20px 0 20px;
+  margin-bottom: 20px;
 `;
 
 export const CalculateButton = styled.TouchableOpacity`
   background-color: #e6005c;
   justify-content: center;
   align-items: center;
-
-  position: absolute;
-  bottom: 0;
 
   width: 100%;
   height: 75px;
