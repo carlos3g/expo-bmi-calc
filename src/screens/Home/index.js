@@ -1,9 +1,15 @@
 import React from 'react';
 
-import { Wrapper } from './styles';
+import { Wrapper, CalculateButton, CalculateButtonText } from './styles';
 
 function HomeScreen() {
-  return <Wrapper></Wrapper>;
+  return (
+    <Wrapper>
+      <CalculateButton>
+        <CalculateButtonText>Calculate your BMI</CalculateButtonText>
+      </CalculateButton>
+    </Wrapper>
+  );
 }
 
 export default HomeScreen;
