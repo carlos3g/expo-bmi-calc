@@ -13,6 +13,10 @@ export const Container = styled.ScrollView`
   margin-bottom: 20px;
 `;
 
+export const Section = styled.View`
+  ${({ horizontal }) => horizontal && 'flex-direction: row;'}
+`;
+
 export const CalculateButton = styled.TouchableOpacity`
   background-color: #e6005c;
   justify-content: center;
