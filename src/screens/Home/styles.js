@@ -24,23 +24,6 @@ export const Section = styled.View`
   ${({ horizontal }) => horizontal && SectionHorizontalStyles}
 `;
 
-export const NarrowCard = styled.View`
-  align-items: center;
-  background-color: #222747;
-  padding: 14px;
-  width: 49%;
-`;
-
-export const LargeCard = styled.View`
-  align-items: center;
-  background-color: #222747;
-  padding: 14px;
-  width: 100%;
-
-  margin-top: 20px;
-  margin-bottom: 20px;
-`;
-
 export const GenderMaleIcon = styled(MaterialCommunityIcons).attrs({
   name: 'gender-male',
   size: 80,
@@ -52,13 +35,6 @@ export const GenderFemaleIcon = styled(MaterialCommunityIcons).attrs({
   size: 80,
   color: '#f8f8f2',
 })``;
-
-export const CardLabel = styled.Text`
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 16px;
-  color: #f8f8f2;
-`;
 
 export const CalculateButton = styled.TouchableOpacity`
   background-color: #e6005c;
