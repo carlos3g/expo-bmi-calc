@@ -28,13 +28,17 @@ export const GenderMaleIcon = styled(MaterialCommunityIcons).attrs({
   name: 'gender-male',
   size: 80,
   color: '#f8f8f2',
-})``;
+})`
+  margin-bottom: 20px;
+`;
 
 export const GenderFemaleIcon = styled(MaterialCommunityIcons).attrs({
   name: 'gender-female',
   size: 80,
   color: '#f8f8f2',
-})``;
+})`
+  margin-bottom: 20px;
+`;
 
 export const CalculateButton = styled.TouchableOpacity`
   background-color: #e6005c;
