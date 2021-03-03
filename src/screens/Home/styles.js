@@ -2,6 +2,11 @@ import styled from 'styled-components/native';
 
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+const SectionHorizontalStyles = `\
+flex-direction: row;
+justify-content: space-between
+`;
+
 export const Wrapper = styled(SafeAreaView)`
   background-color: #0a0f32;
   flex: 1;
@@ -14,7 +19,7 @@ export const Container = styled.ScrollView`
 `;
 
 export const Section = styled.View`
-  ${({ horizontal }) => horizontal && 'flex-direction: row;'}
+  ${({ horizontal }) => horizontal && SectionHorizontalStyles}
 `;
 
 export const CalculateButton = styled.TouchableOpacity`
