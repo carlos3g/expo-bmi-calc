@@ -22,6 +22,19 @@ export const Section = styled.View`
   ${({ horizontal }) => horizontal && SectionHorizontalStyles}
 `;
 
+export const NarrowCard = styled.View`
+  background-color: #222747;
+  width: 49%;
+`;
+
+export const LargeCard = styled.View`
+  background-color: #222747;
+  width: 100%;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+`;
+
 export const CalculateButton = styled.TouchableOpacity`
   background-color: #e6005c;
   justify-content: center;
