@@ -2,6 +2,8 @@ import styled from 'styled-components/native';
 
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import { MaterialCommunityIcons } from '@expo/vector-icons';
+
 const SectionHorizontalStyles = `\
 flex-direction: row;
 justify-content: space-between
@@ -34,6 +36,18 @@ export const LargeCard = styled.View`
   margin-top: 20px;
   margin-bottom: 20px;
 `;
+
+export const GenderMaleIcon = styled(MaterialCommunityIcons).attrs({
+  name: 'gender-male',
+  size: 80,
+  color: '#f8f8f2',
+})``;
+
+export const GenderFemaleIcon = styled(MaterialCommunityIcons).attrs({
+  name: 'gender-female',
+  size: 80,
+  color: '#f8f8f2',
+})``;
 
 export const CalculateButton = styled.TouchableOpacity`
   background-color: #e6005c;
