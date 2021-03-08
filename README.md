@@ -44,8 +44,8 @@ The following tools were used in the construction of the project:
 
 - Download 'Expo Go' APP
 
-* [Google Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent)
-* [App Store](https://apps.apple.com/br/app/expo-client/id982107779)
+  - [Google Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent)
+  - [App Store](https://apps.apple.com/br/app/expo-client/id982107779)
 
 - Open [this link](exp://exp.host/@carlos_piton/expo-bmi-calc) via Expo Go
 
