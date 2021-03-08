@@ -11,6 +11,7 @@
     "@react-native-community/masked-view": "0.1.10",
     "@react-native-community/slider": "3.0.3",
     "@react-navigation/native": "^5.9.2",
+    "@react-navigation/stack": "^5.14.3",
     "axios": "^0.21.1",
     "babel-plugin-root-import": "^6.6.0",
     "expo": "~40.0.0",
