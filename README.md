@@ -24,8 +24,10 @@
 
 ## 📷 Screenshots
 
-<img src=".github/assets/images/mockup-home.png" alt="mockup of HomeScreen" width="300"/>
-<img src=".github/assets/images/mockup-result.png" alt="mockup of ResultScreen" width="300"/>
+<div>
+  <img src=".github/assets/images/mockup-home.png" alt="mockup of HomeScreen" width="300"/>
+  <img src=".github/assets/images/mockup-result.png" alt="mockup of ResultScreen" width="300"/>
+</div>
 
 ## 💻 About the project
 
