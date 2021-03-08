@@ -66,5 +66,5 @@ This project is under the MIT license. See the file [LICENSE](LICENSE) for more 
 ---
 
 <p align="center">
-  Created by <a target="_blank" href="https://github.com/carlos3g"><GITHUB_USERNAME></a> 💜
+  Created by <a target="_blank" href="https://github.com/carlos3g">Carlos Mesquita</a> 💜
 </p>
