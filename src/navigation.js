@@ -9,6 +9,7 @@ const { Navigator, Screen } = createStackNavigator();
 
 const screenOptions = {
   headerShown: false,
+  cardStyle: { backgroundColor: 'transparent' },
 };
 
 function Routes() {
