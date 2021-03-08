@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import Card from '@components/Card';
 import Modifier from '@components/Modifier';
 
+import { useNavigation } from '@react-navigation/native';
+
 import {
   Wrapper,
   Container,
@@ -23,6 +25,8 @@ function HomeScreen() {
   const [height, setHeight] = useState(100);
   const [weight, setWeight] = useState(50);
   const [age, setAge] = useState(10);
+
+  const { navigate } = useNavigation();
 
   function handleAddModifier(value, func) {
     func(value + 1);
@@ -94,7 +98,11 @@ function HomeScreen() {
         </Section>
       </Container>
 
-      <CalculateButton>
+      <CalculateButton
+        onPress={() => {
+          navigate('Result', { gender, height, weight, age });
+        }}
+      >
         <CalculateButtonText>Calculate your BMI</CalculateButtonText>
       </CalculateButton>
     </Wrapper>

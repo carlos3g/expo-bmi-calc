@@ -1,17 +1,16 @@
 import React from 'react';
 
 import { NavigationContainer } from '@react-navigation/native';
-// import Navigation from './Navigation';
 import { StatusBar } from 'expo-status-bar';
 
-import HomeScreen from '@screens/Home';
+import Routes from './navigation';
 
 function App() {
   return (
     <>
       <StatusBar style="light" backgroundColor="#0A0F32" />
       <NavigationContainer>
-        <HomeScreen />
+        <Routes />
       </NavigationContainer>
     </>
   );
