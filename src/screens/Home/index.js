@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
-import Card from '@components/Card';
-import Modifier from '@components/Modifier';
+import { Card, Modifier } from '@components/';
 
 import { useNavigation } from '@react-navigation/native';
 

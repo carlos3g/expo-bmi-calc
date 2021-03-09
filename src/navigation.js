@@ -2,8 +2,7 @@ import React from 'react';
 
 import { createStackNavigator, TransitionSpecs } from '@react-navigation/stack';
 
-import ResultScreen from '@screens/Result';
-import HomeScreen from '@screens/Home';
+import { ResultScreen, HomeScreen } from '@screens/';
 
 const { Navigator, Screen } = createStackNavigator();
 
