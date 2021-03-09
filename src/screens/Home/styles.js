@@ -1,9 +1,9 @@
 import styled from 'styled-components/native';
 
+import { colors } from '@styles/';
+
 import { SafeAreaView } from 'react-native-safe-area-context';
-
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-
 import Slider from '@react-native-community/slider';
 
 const SectionHorizontalStyles = `\
@@ -12,7 +12,7 @@ justify-content: space-between
 `;
 
 export const Wrapper = styled(SafeAreaView)`
-  background-color: #0a0f33;
+  background-color: ${colors.primaryDark};
   flex: 1;
 `;
 
@@ -33,7 +33,7 @@ export const GenderMaleIcon = styled(MaterialCommunityIcons).attrs(
   ({ focus }) => ({
     name: 'gender-male',
     size: 80,
-    color: focus ? '#f8f8f2' : '#A3A6B5',
+    color: focus ? colors.active : colors.inactive,
   })
 )`
   margin-bottom: 20px;
@@ -43,14 +43,14 @@ export const GenderFemaleIcon = styled(MaterialCommunityIcons).attrs(
   ({ focus }) => ({
     name: 'gender-female',
     size: 80,
-    color: focus ? '#f8f8f2' : '#A3A6B5',
+    color: focus ? colors.active : colors.inactive,
   })
 )`
   margin-bottom: 20px;
 `;
 
 export const CalculateButton = styled.TouchableOpacity`
-  background-color: #e6005c;
+  background-color: ${colors.secondary};
   justify-content: center;
   align-items: center;
 
@@ -62,20 +62,20 @@ export const CalculateButtonText = styled.Text`
   text-transform: uppercase;
   font-weight: bold;
   font-size: 20px;
-  color: #f8f8f2;
+  color: ${colors.white};
 `;
 
 export const Label = styled.Text`
   text-transform: uppercase;
   font-weight: bold;
   font-size: 16px;
-  color: ${({ focus }) => (focus ? '#f8f8f2' : '#A3A6B5')};
+  color: ${({ focus }) => (focus ? colors.active : colors.inactive)};
 `;
 
 export const Range = styled(Slider).attrs({
-  thumbTintColor: '#e6005c',
-  minimumTrackTintColor: '#f8f8f2',
-  maximumTrackTintColor: '#a3a6b5',
+  thumbTintColor: colors.secondary,
+  minimumTrackTintColor: colors.white,
+  maximumTrackTintColor: colors.gray,
 })`
   width: 100%;
   margin: 20px 0 20px 0;
@@ -84,12 +84,12 @@ export const Range = styled(Slider).attrs({
 export const H1 = styled.Text`
   font-size: 48px;
   font-weight: bold;
-  color: #f8f8f2;
+  color: ${colors.white};
 `;
 
 export const H6 = styled.Text`
   font-size: 16px;
-  color: #a3a6b5;
+  color: ${colors.gray};
 `;
 
 export const ModifiersContainer = styled.View`
