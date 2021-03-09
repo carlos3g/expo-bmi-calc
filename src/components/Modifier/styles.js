@@ -1,5 +1,7 @@
 import styled from 'styled-components/native';
 
+import { colors } from '@styles/';
+
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 export const Container = styled.TouchableOpacity`
@@ -9,10 +11,10 @@ export const Container = styled.TouchableOpacity`
 
   align-items: center;
   justify-content: center;
-  background-color: #222747;
+  background-color: ${colors.primaryLight};
 `;
 
 export const Icon = styled(MaterialCommunityIcons).attrs({
   size: 50,
-  color: '#A3A6B5',
+  color: colors.gray,
 })``;
