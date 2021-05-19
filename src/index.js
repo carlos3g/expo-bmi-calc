@@ -6,11 +6,9 @@ import Routes from './navigation';
 
 function App() {
   return (
-    <>
-      <NavigationContainer>
-        <Routes />
-      </NavigationContainer>
-    </>
+    <NavigationContainer>
+      <Routes />
+    </NavigationContainer>
   );
 }
 

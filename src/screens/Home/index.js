@@ -27,12 +27,13 @@ function HomeScreen() {
 
   const { navigate } = useNavigation();
 
-  function handleAddModifier(value, func) {
+  const handleAddModifier = (value, func) => {
     func(value + 1);
-  }
-  function handleMinusModifier(value, func) {
+  };
+
+  const handleMinusModifier = (value, func) => {
     func(value - 1);
-  }
+  };
 
   return (
     <Wrapper>
@@ -42,6 +43,7 @@ function HomeScreen() {
             <GenderMaleIcon focus={gender == 0} />
             <Label focus={gender == 0}>Male</Label>
           </Card>
+
           <Card onPress={() => setGender(1)}>
             <GenderFemaleIcon focus={gender} />
             <Label focus={gender}>Female</Label>

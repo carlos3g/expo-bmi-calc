@@ -80,9 +80,9 @@ function calcBMI(weight, height) {
 
 function ResultScreen() {
   const { goBack } = useNavigation();
-  const { params } = useRoute();
+  const { weight, height } = useRoute().params;
 
-  const bmi = calcBMI(params.weight, cmToMeter(params.height));
+  const bmi = calcBMI(weight, cmToMeter(height));
   const { state, rangeLabel, range, stateDesc } = getBmiInfo(bmi);
 
   return (
@@ -98,11 +98,7 @@ function ResultScreen() {
         </Card>
       </Container>
 
-      <CalculateButton
-        onPress={() => {
-          goBack();
-        }}
-      >
+      <CalculateButton onPress={goBack}>
         <CalculateButtonText>Re-calculate your BMI</CalculateButtonText>
       </CalculateButton>
     </Wrapper>

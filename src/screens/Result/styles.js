@@ -13,9 +13,7 @@ export const Container = styled.ScrollView.attrs({
   contentContainerStyle: {
     padding: 20,
   },
-})`
-  flex: 1;
-`;
+})``;
 
 export const CalculateButton = styled.TouchableOpacity`
   background-color: ${colors.secondary};
@@ -28,6 +26,7 @@ export const CalculateButton = styled.TouchableOpacity`
 
 export const Text = styled.Text`
   color: ${colors.white};
+  font-size: 14px;
 `;
 
 export const CalculateButtonText = styled(Text)`
@@ -63,10 +62,8 @@ export const StateDescription = styled(Text)`
 
 export const RangeLabel = styled(Text)`
   color: ${colors.gray};
-  font-size: 14px;
 `;
 
 export const Range = styled(Text)`
-  font-size: 14px;
   margin-bottom: 20px;
 `;

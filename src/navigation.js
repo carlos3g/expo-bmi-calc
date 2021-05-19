@@ -11,17 +11,16 @@ const screenOptions = {
   cardStyle: { backgroundColor: 'transparent' },
 };
 
+const options = {
+  transitionSpec: {
+    open: TransitionSpecs.RevealFromBottomAndroidSpec,
+    close: TransitionSpecs.RevealFromBottomAndroidSpec,
+  },
+};
+
 function Routes() {
   return (
-    <Navigator
-      screenOptions={screenOptions}
-      options={{
-        transitionSpec: {
-          open: TransitionSpecs.RevealFromBottomAndroidSpec,
-          close: TransitionSpecs.RevealFromBottomAndroidSpec,
-        },
-      }}
-    >
+    <Navigator screenOptions={screenOptions} options={options}>
       <Screen name="Home" component={HomeScreen} />
       <Screen name="Result" component={ResultScreen} />
     </Navigator>
