@@ -43,28 +43,28 @@ The following technologies were used in the construction of the project:
 
 ### 🚀 How to run
 
-#### Clone the repository
-```bash
-git clone https://github.com/carlos3g/expo-bmi-calc.git
-```
+1. Clone the repository
+   ```bash
+   git clone https://github.com/carlos3g/expo-bmi-calc.git
+   ```
 
-#### Install the dependencies
-```bash
-cd expo-bmi-calc
-yarn install
-```
+2. Install the dependencies
+   ```bash
+   cd expo-bmi-calc
+   yarn install
+   ```
 
-#### Run the application
-```bash
-yarn start
-```
+3. Run the application
+   ```bash
+   yarn start
+   ```
 
-#### Download the 'Expo Go' APP
+4. Download the 'Expo Go' APP
 
-  - [Google Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent)
-  - [App Store](https://apps.apple.com/br/app/expo-client/id982107779)
+   - [Google Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent)
+   - [App Store](https://apps.apple.com/br/app/expo-client/id982107779)
 
-#### Using the mentioned APP, Scan the QR Code opened in step 3
+5. Using the mentioned APP, Scan the QR Code opened in step 3
 
 ## 🤝 How to contribute
 
