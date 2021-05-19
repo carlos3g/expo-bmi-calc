@@ -15,43 +15,58 @@
     
 ## Table of contents
 
-- [Screenshots](#-screenshots)
-- [About the project](#-about-the-projects)
-- [Technologies used](#-technologies-used)
-- [How to run](#-how-to-run)
-- [How to contribute with](#-how-to-contribute-with)
-- [License](#-license)
+   * [About the project](#-about-the-project)
+      - [Screenshots](#-screenshots)
+      - [Technologies](#-technologies)
+      - [How to run](#-how-to-run)
+   * [How to contribute](#-how-to-contribute)
+   * [License](#-license)
 
-## 📷 Screenshots
+## 💻 About the project
+
+This is a BMI calculator made with React Native & Expo
+
+### 📷 Screenshots
 
 <div>
   <img src=".github/assets/images/mockup-home.png" alt="mockup of HomeScreen" width="300"/>
   <img src=".github/assets/images/mockup-result.png" alt="mockup of ResultScreen" width="300"/>
 </div>
 
-## 💻 About the project
+### 🛠 Technologies
 
-This is a BMI calculator made with React Native & Expo
-
-## 🛠 Technologies used
-
-The following tools were used in the construction of the project:
+The following technologies were used in the construction of the project:
 
 - [Expo](https://expo.io/)
 - [React Navigation V5](https://reactnavigation.org/)
 - [Styled Components](https://styled-components.com/)
 
-## 📲 How to run
+### 🚀 How to run
 
-- Download 'Expo Go' APP
+#### Clone the repository
+```bash
+git clone https://github.com/carlos3g/expo-bmi-calc.git
+```
+
+#### Install the dependencies
+```bash
+cd expo-bmi-calc
+yarn install
+```
+
+#### Run the application
+```bash
+yarn start
+```
+
+#### Download the 'Expo Go' APP
 
   - [Google Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent)
   - [App Store](https://apps.apple.com/br/app/expo-client/id982107779)
 
-- Open the following link via Expo Go
-  - [exp://exp.host/@carlos_piton/expo-bmi-calc](exp://exp.host/@carlos_piton/expo-bmi-calc)
+#### Using the mentioned APP, Scan the QR Code opened in step 3
 
-## 🤝 How to contribute with
+## 🤝 How to contribute
 
 Every kind of contribution is welcome, we admire it!
 
@@ -59,14 +74,15 @@ Is there any problem? Found a bug? Do you have any tips? Open an [issue](https:/
 
 Want to contribute code? We ask that you first read [this contribution guide](https://github.com/firstcontributions/first-contributions)
 
-Don't forget to leave your ⭐, it is also a way to contribute to the project;)
+Don't forget to leave your ⭐, it is also a way to contribute to the project;) 
 
 ## 📝 License
 
 This project is under the MIT license. See the file [LICENSE](LICENSE) for more details.
 
 ---
+<div align="center">
 
-<p align="center">
-  Created by <a target="_blank" href="https://github.com/carlos3g">Carlos Mesquita</a> 💜
-</p>
+  Created by [Carlos Mesquita](https://github.com/carlos3g) 💜
+
+</div>
